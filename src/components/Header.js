@@ -4,8 +4,6 @@ import ModalInfo from "./Videos/ModalInfo";
 import LightModeContext from "../../src/contexts/LightMode-context";
 
 function Header() {
-  //LightMode Context(LightModeProviderの内容をimportさせているからcontextを呼べばそれをここで使える)
-
   const lightTheme = useContext(LightModeContext);
 
   const toggleLightMode = () => {
