@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+.main-font {
+  font-family: "Proxima Nova", Verdana, "Avenir Next";
+}
+
+.main-bg {
+  background: #1b2430;
+}
+
+.btn-color {
+  background: #51557e;
+}
+
+/* light mode */
+
+.btn-light {
+  background: #183db9;
+}
+
+.main-bg-light {
+  background-color: #586284;
+}
